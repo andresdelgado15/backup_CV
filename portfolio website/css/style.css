@@ -852,23 +852,18 @@ h3.my-profession {
         border-bottom: none;
         border-right: none;
     }
+
     .home-img::before {
-        
+
         border-top: none;
         border-left: none;
-       
+
     }
-    
-
-
-
     .home .home-info {
         flex: 0 0 100%;
         max-width: 100%;
 
     }
-
-
     .home .home-img {
         display: block;
         padding: 50px;
@@ -890,9 +885,13 @@ h3.my-profession {
         max-width: 100%;
     }
     .home .home-img {
-        display: block;
+        display: flex;
         padding: 50px;
         margin: auto ;
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+        
     }
 
 }
